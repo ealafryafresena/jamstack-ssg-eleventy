@@ -1,0 +1,14 @@
+<div class="header w-100 d-flex align-items-center justify-content-between bg-light sticky-top border-bottom">
+  <div class="logo">
+    <h1><a class="logo-link" href="/">JAMstack</a></h1>
+  </div>
+  <ul class="nav nav-pills menu">
+    {% for item in pages.nav %}
+      <li class="nav-item">
+        <a class="nav-link {% if title == item.title %} active {% endif %}" href="{{item.url}}">
+          {{item.title}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

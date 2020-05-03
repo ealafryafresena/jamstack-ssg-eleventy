@@ -1,0 +1,26 @@
+---
+title: Articles
+heading: Most Popular Articles
+description: The most viewed articles of the New York Times for the last 7 days
+layout: base.njk
+---
+
+<div class="container">
+  <div class="row height-100">
+    <div class="col-12">
+      <h2>{{ heading }}</h2>
+      <p><strong>{{ description }}</strong></p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex justify-content-around flex-wrap">
+        {% for article in mostPopular.results %}
+          {% include "./_includes/components/card.html" %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
