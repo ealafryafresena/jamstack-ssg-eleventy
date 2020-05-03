@@ -17,18 +17,18 @@ This project uses the [The New York Times Developer Network](https://developer.n
 - To run the application get an API key from the [The New York Times Developer Network](https://developer.nytimes.com/ "The New York Times Developer Network"). The use of the API is for free.
 - Rename file `sample.env` to `.env` and add your API key.
 
-### Project setup
+## Project setup
 
 ```
 npm install
 ```
 
-### Run application
+## Run application
 
 ```
 npm start
 ```
 
-### Demo on Netlify
+## Demo on Netlify
 
-There is a demo of the application on [Netlify](https://www.netlify.com/ "Netlify") [Demo]()
+[Demo](https://musing-wiles-262a74.netlify.app/ "Demo")
